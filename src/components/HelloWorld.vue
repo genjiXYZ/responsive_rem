@@ -1,6 +1,13 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+
+
+    <div class="rem">
+      我是一段文字 css font-size设置为 40px 自动转 rem
+    </div>
+
+
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -42,6 +49,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.rem{
+  font-size: 40px;
+}
 h3 {
   margin: 40px 0 0;
 }

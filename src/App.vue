@@ -4,9 +4,36 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    rem() {
+      var designWidth = 750,
+        rem2px = 100;
+      document.documentElement.style.fontSize =
+        (((window.innerWidth / designWidth) * rem2px) / 16) * 100 + "%";
+    },
+  },
+  created() {
+    this.rem(),
+      window.addEventListener(
+        "resize",
+        () => {
+          clearTimeout(timer);
+          let timer = setTimeout(() => {
+            this.rem();
+          }, 200);
+        },
+
+        false
+      );
+  },
+};
+</script>
 
 <style>
 #app {
@@ -15,6 +42,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 32px;
 }
 
 #nav {
@@ -28,5 +56,9 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+html {
+  font-size: 100px;
 }
 </style>
