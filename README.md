@@ -8,9 +8,6 @@ please use proxy if you can't open this website
 
 ```
 npm install
-```
-
-
 npm run serve
 ```
 
