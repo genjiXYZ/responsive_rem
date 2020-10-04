@@ -1,24 +1,21 @@
 # responsive_rem
 
-## Project setup
+## demo  https://genjixyz.github.io/responsive_rem/
+
+如果打不开 请使用代理
+
+please use proxy if you can't open this website
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
