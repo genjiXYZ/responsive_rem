@@ -1,6 +1,10 @@
 # responsive_rem
 
-## demo  https://genjixyz.github.io/responsive_rem/
+
+
+文字 图片  自动转rem   ,然后根据窗口大小,改变html字体大小
+
+### demo    https://genjixyz.github.io/responsive_rem/
 
 如果打不开 请使用代理
 
